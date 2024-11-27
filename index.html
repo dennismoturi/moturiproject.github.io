@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to My Profile</h1>
+<a href ="#"> Home </a>
+<a href ="profile.html"> Profile</a>
+<a href ="about.html"> About</a>
+<a href = "projects.html"> Projects </a>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+   <img src="3.png" width= 150px height=150px>
+    <!-- Bio Section -->
+    <section id="bio">
+      <h2>About Me</h2>
+      <p>Hi, I'm Dennis Moturi. </p>
+	  <p>I'm a web developer with a passion for creating user-friendly websites.</p>
+      <button onclick="toggleBio()">Read More</button>
+      <p id="bio-more" style="display: none;">Additional information about me.</p>
+	  <p> I'm  have five years working experience in website Development industry</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul> 
+        <li>HTML</li>
+        <li>JavaScript</li>
+		 <li>CSS</li>
+		  
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+	   <p>This is my first projects</p>
+	  <p> I intend to develop the following systems</p>
+      <ul>
+        <li> online job application portal</li>
+        <li> employee leave  management system </li>
+		<li> document management system </li>
+		<li> enventory management system</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Form Section -->
+  <section id=" my web page">
+    <h2>Subscribe to  my web page</h2>
+	<b>Denosoft Solutions</b>
+    <form onsubmit="return validateForm()">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <button type="submit">Subscribe</button>
+      <p id="form-error" style="color: red;"></p>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; <i>Denosoft Solutions Profile Page</i></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

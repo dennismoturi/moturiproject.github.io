@@ -1,0 +1,65 @@
+a {
+  color: green;
+  font-family: Tohama;
+  font-style: bold;
+  text-decoration: none;
+  
+ }
+ a {
+  text-align: center;
+ }
+
+* {
+  margin: 10;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+  background-color: #84f38d;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#profile-img {
+  border-radius: 50%;
+  width: 150px;
+  margin-top: 10px;
+}
+
+/* Main Content Styling */
+main {
+  padding: 20px;
+}
+
+#bio, #skills, #projects, #web page {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+#bio-more {
+  color: #555;
+}
+
+/* Form Styling */
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #575a59;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
